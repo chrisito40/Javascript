@@ -127,7 +127,7 @@ console.log( perro.muerde );
 
 function saludar() {
   // Código a ejecutar 
-  console.log(´Hola mamá, estoy aprendiendo JS! 😀´);
+  console.log("Hola mamá, estoy aprendiendo JS! 😀");
 } 
 
 // Llamamos a la función
