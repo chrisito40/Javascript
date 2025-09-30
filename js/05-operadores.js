@@ -99,3 +99,32 @@ console.log(d < 15); // true
 console.log(d >=10); //true
 console.log(d <= 5); //false
 
+
+/* 
+
+ 4. Operadores Lógicos
+
+ Se utilizan para combinar expresiones booleanas.  
+
+ 
+ && 👉 AND (y) - Si  ambos valores son verdadero el resultado es
+ verdadero. Si al menos un valor es falso el resultado es falso.
+
+  | | 👉 OR (o) - Si al menos un valor es verdadero el resultado es
+  verdadero. Solo si ambos valores son falsos el resultado es
+  falso.
+
+  ! 👉 NOT (no) - Niega el valor. El resultado es el valor 
+  contrario al que se esta negando.
+
+
+
+*/
+
+let f = true; 
+let g = true;
+
+console.log(f && g);  // false
+console.log(f || g); // true 
+console.log(!f); // false
+console.log(!g); // true 
